@@ -160,16 +160,23 @@
 ## ФУНКЦИИ
 # def - определяет фукцию
 
-def f(x):
-    if x == 1:
-        return 'Целое'
-    elif x == 2.3:
-        return 1
-    else:
-        return
+# def f(x):
+#     if x == 1:
+#         return 'Целое'
+#     elif x == 2.3:
+#         return 1
+#     else:
+#         return
 
-arg = 2.3
-print(f(arg))
-print(type(f(arg)))
+# arg = 2.3
+# print(f(arg))
+# print(type(f(arg)))
+
+line = " "
+for i in range(5):
+        line = " "
+        for j in range(5):
+                line += " * "
+        print(line)
 
 
